@@ -85,3 +85,10 @@ body {
     top: 0;
     left: 20px;
   }
+
+@media only screen and (max-width:800){
+    body{
+        background-image: url('https://source.unsplash.com/720×1280/?landscape');
+        object-fit: contain;
+    }
+}
